@@ -1,0 +1,41 @@
+<!ELEMENT rutasCaballo (ruta+)>
+<!ELEMENT ruta (tipo, dificultad, duracion, inicio?, hora?, agencia, descripcion, personas, lugar, direccion, coordenadas, bibliografias, recomendacion, hitos)>
+<!ELEMENT hitos (hito+)>
+<!ELEMENT hito (nombre, descripcion, coordenadas, distancia, tiempo?,fotos+, videos?)>
+<!ELEMENT bibliografias (bibliografia+)>
+<!ELEMENT tipo (#PCDATA)>
+<!ELEMENT dificultad (#PCDATA)>
+<!ELEMENT duracion (#PCDATA)>
+<!ELEMENT inicio (#PCDATA)>
+<!ELEMENT hora (#PCDATA)>
+<!ELEMENT agencia (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT personas (#PCDATA)>
+<!ELEMENT lugar (#PCDATA)>
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT coordenadas (#PCDATA)>
+<!ELEMENT bibliografia (#PCDATA)>
+<!ELEMENT recomendacion (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT distancia (#PCDATA)>
+<!ELEMENT fotos (foto+)>
+<!ELEMENT foto (#PCDATA)>
+<!ELEMENT tiempo (#PCDATA)>
+<!ELEMENT videos (video*)>
+<!ELEMENT video (#PCDATA)>
+<!ATTLIST ruta
+	titulo CDATA #REQUIRED>
+<!ATTLIST coordenadas
+	longitud CDATA #REQUIRED>
+<!ATTLIST coordenadas
+	latitud  CDATA #REQUIRED>
+<!ATTLIST coordenadas
+	altitud CDATA #REQUIRED>
+<!ATTLIST distancia
+	km CDATA #REQUIRED>
+<!ATTLIST foto
+	link CDATA #REQUIRED>
+<!ATTLIST bibliografia
+	link CDATA #REQUIRED>
+<!ATTLIST video
+	link CDATA #IMPLIED>

@@ -1,0 +1,11 @@
+lenguaje usado: Java
+Version del compilador/Interprete: Eclipse jdk 1.8
+Archivo de prueba: netflixEmample.ttml
+
+Uso de aplicación: Coge un archivo .ttml, y a continuacion lo muestra por pantalla (simulando que fuesen subtitulos, ya que vi que generalmente ttml es usado para subtitulos).
+Las instrucciones ya estan puestas al ejecutar la aplicación, de todas formas:
+- Ejecutar Main.java
+- Meter un archivo .ttml en la carpeta archivosTTML
+- Pulsar enter al haberla metido
+- Introducir el nombre completo, incluyendo la extension
+- Se muestra la simulación del archivo por consola

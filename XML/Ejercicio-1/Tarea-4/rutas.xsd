@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<xs:schema xmlns="http://tempuri.org/rutas" elementFormDefault="qualified" targetNamespace="http://tempuri.org/rutas" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="rutasCaballo">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="1" maxOccurs="unbounded" ref="ruta" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="ruta">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="tipo" />
+				<xs:element ref="dificultad" />
+				<xs:element ref="duracion" />
+				<xs:element minOccurs="0" maxOccurs="1" ref="inicio" />
+				<xs:element minOccurs="0" maxOccurs="1" ref="hora" />
+				<xs:element ref="agencia" />
+				<xs:element ref="descripcion" />
+				<xs:element ref="personas" />
+				<xs:element ref="lugar" />
+				<xs:element ref="direccion" />
+				<xs:element ref="coordenadas" />
+				<xs:element ref="bibliografias" />
+				<xs:element ref="recomendacion" />
+				<xs:element ref="hitos" />
+			</xs:sequence>
+			<xs:attribute name="titulo" type="xs:string" use="required" />
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="hitos">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="1" maxOccurs="unbounded" ref="hito" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="hito">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="nombre" />
+				<xs:element ref="descripcion" />
+				<xs:element ref="coordenadas" />
+				<xs:element ref="distancia" />
+				<xs:element minOccurs="0" maxOccurs="1" ref="tiempo" />
+				<xs:element minOccurs="1" maxOccurs="unbounded" ref="fotos" />
+				<xs:element minOccurs="0" maxOccurs="1" ref="videos" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="bibliografias">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="1" maxOccurs="unbounded" ref="bibliografia" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="tipo" type="xs:string" />
+	<xs:element name="dificultad" type="xs:string" />
+	<xs:element name="duracion" type="xs:string" />
+	<xs:element name="inicio" type="xs:string" />
+	<xs:element name="hora" type="xs:string" />
+	<xs:element name="agencia" type="xs:string" />
+	<xs:element name="descripcion" type="xs:string" />
+	<xs:element name="personas" type="xs:string" />
+	<xs:element name="lugar" type="xs:string" />
+	<xs:element name="direccion" type="xs:string" />
+	<xs:element name="coordenadas">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="xs:string">
+					<xs:attribute name="longitud" type="xs:string" use="required" />
+					<xs:attribute name="latitud" type="xs:string" use="required" />
+					<xs:attribute name="altitud" type="xs:string" use="required" />
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="bibliografia">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="xs:string">
+					<xs:attribute name="link" type="xs:string" use="required" />
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="recomendacion" type="xs:string" />
+	<xs:element name="nombre" type="xs:string" />
+	<xs:element name="distancia">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="xs:string">
+					<xs:attribute name="km" type="xs:string" use="required" />
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="fotos">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="1" maxOccurs="unbounded" ref="foto" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="foto">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="xs:string">
+					<xs:attribute name="link" type="xs:string" use="required" />
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="tiempo" type="xs:string" />
+	<xs:element name="videos">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="0" maxOccurs="unbounded" ref="video" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="video">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="xs:string">
+					<xs:attribute name="link" type="xs:string" />
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
