@@ -1,5 +1,0 @@
-La forma automática nos genera un archivo .xsd con una estructura ya formada y valores definidos de forma generalizada (todo asignado como string), además que la cantidad de ocurrencias
-son puestas automaticamente del .dtd.
-
-En cambio haciéndolo manualmente enriquecemos el .xsd anadiendo en este casa el mínimo de "ruta" puesto como (3,unbounded), en vez de (1,unbounded), ya que el mínimo de rutas ha de ser 3.
-O el minimo de bibliografías, que sucedía lo mismo.
