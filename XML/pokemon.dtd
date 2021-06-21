@@ -1,0 +1,14 @@
+<!ELEMENT pokemons (tipo+)>
+<!ELEMENT tipo (zona+)>
+<!ELEMENT zona (pokemon+)>
+<!ELEMENT pokemon (nombre,dificultad,altura,peso,habilidad,referencia)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT dificultad (#PCDATA)>
+<!ELEMENT altura (#PCDATA)>
+<!ELEMENT peso (#PCDATA)>
+<!ELEMENT habilidad (#PCDATA)>
+<!ELEMENT referencia (#PCDATA)>
+<!ATTLIST tipo
+	titulo CDATA #REQUIRED>
+<!ATTLIST zona
+	nombre CDATA #REQUIRED>

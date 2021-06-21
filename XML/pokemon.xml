@@ -1,24 +1,8 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE pokemons SYSTEM "pokemon.dtd">
 <pokemons>
-    <hierba>
-        <meseta-añil>
-        </meseta-añil>
-        <calle-victoria>
-        </calle-vistoria>
-        <bosque-verde>
-        </bosque-verde>
-        <pueblo-paleta>
-        </pueblo-paleta>
-        <mansion-pokemon>
-        </mansion-pokemon>
-        <isla-canela>
-        </isla-canela>
-        <islas-espuma>
-        </islas-espuma>
-        <ciudad-fucsia>
-        </ciudad-fucsia>
-        <camino-de-bicis>
-        </camino-de-bicis>
-        <ciudad-azulona>
+    <tipo titulo = "hierba">
+        <zona nombre = "Ciudad azulona">
             <pokemon>
                 <nombre>Ivysaur</nombre>
                 <dificultad>medio</dificultad>
@@ -35,10 +19,8 @@
                 <habilidad>Espesura</habilidad>
                 <referencia>https://bulbapedia.bulbagarden.net/wiki/Venusaur_(Pok%C3%A9mon)</referencia>
             </pokemon>
-        </ciudad-azulona>
-        <ciudad-plateada>
-        </ciudad-plateada>
-        <monte-moon>
+        </zona>
+        <zona nombre = "Monte moon">
             <pokemon>
                 <nombre>Paras</nombre>
                 <dificultad>fácil</dificultad>
@@ -55,8 +37,8 @@
                 <habilidad>Piel seca</habilidad>
                 <referencia>https://bulbapedia.bulbagarden.net/wiki/Parasect_(Pok%C3%A9mon)</referencia>
             </pokemon>
-        </monte-moon>
-        <ciudad-celeste>
+        </zona>
+        <zona nombre = "Ciudad celeste">
             <pokemon>
                 <nombre>Bulbasaur</nombre>
                 <dificultad>fácil</dificultad>
@@ -65,28 +47,8 @@
                 <habilidad>Espesura</habilidad>
                 <referencia>https://bulbapedia.bulbagarden.net/wiki/Bulbasaur_(Pok%C3%A9mon)</referencia>
             </pokemon>
-        </ciudad-celeste>
-        <ciudad-azafran>
-        </ciudad-azafran>
-        <ciudad-carmin>
-        </ciudad-carmin>
-        <puerto-carmin>
-        </puerto-carmin>
-        <zona-safari>
-        </zona-safari>
-        <cueva-diglett>
-        </cueva-diglett>
-        <pueblo-lavanda>
-        </pueblo-lavanda>
-        <cueva-celeste>
-        </cueva-celeste>
-        <tunel-roca>
-        </tunel-roca>
-        <cental-energetica>
-        </central-energetica>
-        <torre-pokemon>
-        </torre-pokemon>
-        <desconocido>
+        </zona>
+        <zona nombre = "Desconocido">
             <pokemon>
                 <nombre>Oddish</nombre>
                 <dificultad>fácil</dificultad>
@@ -111,12 +73,10 @@
                 <habilidad>Clorofila</habilidad>
                 <referencia>https://bulbapedia.bulbagarden.net/wiki/Vileplume_(Pok%C3%A9mon)</referencia>
             </pokemon>
-        </desconocido>
-    </hierba>
-    <veneno>
-        <meseta-añil>
-        </meseta-añil>
-        <calle-victoria>
+        </zona>
+    </tipo>
+    <tipo titulo = "veneno">
+        <zona nombre = "Calle victoria">
             <pokemon>
                 <nombre>Ekans</nombre>
                 <dificultad>fácil</dificultad>
@@ -173,16 +133,8 @@
                 <habilidad>Rivalidad</habilidad>
                 <referencia>https://bulbapedia.bulbagarden.net/wiki/Nidoking_(Pok%C3%A9mon)</referencia>
             </pokemon>
-        </calle-vistoria>
-        <bosque-verde>
-        </bosque-verde>
-        <pueblo-paleta>
-        </pueblo-paleta>
-        <mansion-pokemon>
-        </mansion-pokemon>
-        <isla-canela>
-        </isla-canela>
-        <islas-espuma>
+        </zona>
+        <zona nombre = "Islas espuma">
             <pokemon>
                 <nombre>Zubat</nombre>
                 <dificultad>fácil</dificultad>
@@ -199,12 +151,8 @@
                 <habilidad>Centrado interno</habilidad>
                 <referencia>https://bulbapedia.bulbagarden.net/wiki/Golbat_(Pok%C3%A9mon)</referencia>
             </pokemon>
-        </islas-espuma>
-        <ciudad-fucsia>
-        </ciudad-fucsia>
-        <camino-de-bicis>
-        </camino-de-bicis>
-        <ciudad-azulona>
+        </zona>
+        <zona nombre = "Ciudad azulona">
             <pokemon>
                 <nombre>Ivysaur</nombre>
                 <dificultad>medio</dificultad>
@@ -221,12 +169,8 @@
                 <habilidad>Espesura</habilidad>
                 <referencia>https://bulbapedia.bulbagarden.net/wiki/Venusaur_(Pok%C3%A9mon)</referencia>
             </pokemon>
-        </ciudad-azulona>
-        <ciudad-plateada>
-        </ciudad-plateada>
-        <monte-moon>
-        </monte-moon>
-        <ciudad-celeste>
+        </zona>
+        <zona nombre = "Ciudad celeste">
           <pokemon>
                 <nombre>Bulbasaur</nombre>
                 <dificultad>fácil</dificultad>
@@ -235,26 +179,8 @@
                 <habilidad>Espesura</habilidad>
                 <referencia>https://bulbapedia.bulbagarden.net/wiki/Bulbasaur_(Pok%C3%A9mon)</referencia>
             </pokemon>
-        </ciudad-celeste>
-        <ciudad-azafran>
-        </ciudad-azafran>
-        <ciudad-carmin>
-        </ciudad-carmin>
-        <puerto-carmin>
-        </puerto-carmin>
-        <zona-safari>
-        </zona-safari>
-        <cueva-diglett>
-        </cueva-diglett>
-        <pueblo-lavanda>
-        </pueblo-lavanda>
-        <cueva-celeste>
-        </cueva-celeste>
-        <tunel-roca>
-        </tunel-roca>
-        <cental-energetica>
-        </central-energetica>
-        <torre-pokemon>
+        </zona>
+        <zona nombre = "Torre Pokemon">
             <pokemon>
                 <nombre>Gastly</nombre>
                 <dificultad>fácil</dificultad>
@@ -271,8 +197,8 @@
                 <habilidad>Atracción magnética</habilidad>
                 <referencia>https://bulbapedia.bulbagarden.net/wiki/Haunter_(Pok%C3%A9mon)</referencia>
             </pokemon>
-        </torre-pokemon>
-        <desconocido>
+        </zona>
+        <zona nombre = "Desconocido">
              <pokemon>
                 <nombre>Oddish</nombre>
                 <dificultad>fácil</dificultad>
@@ -305,28 +231,10 @@
                 <habilidad>Clorofila</habilidad>
                 <referencia>https://bulbapedia.bulbagarden.net/wiki/Vileplume_(Pok%C3%A9mon)</referencia>
             </pokemon>
-        </desconocido>
-    </veneno>
-    <fuego>
-     <meseta-añil>
-        </meseta-añil>
-        <calle-victoria>
-        </calle-vistoria>
-        <bosque-verde>
-        </bosque-verde>
-        <pueblo-paleta>
-        </pueblo-paleta>
-        <mansion-pokemon>
-        </mansion-pokemon>
-        <isla-canela>
-        </isla-canela>
-        <islas-espuma>
-        </islas-espuma>
-        <ciudad-fucsia>
-        </ciudad-fucsia>
-        <camino-de-bicis>
-        </camino-de-bicis>
-        <ciudad-azulona>
+        </zona>
+    </tipo>
+    <tipo titulo = "fuego">
+        <zona nombre = "Ciudad azulona">
             <pokemon>
                 <nombre>Vulpix</nombre>
                 <dificultad>fácil</dificultad>
@@ -335,12 +243,8 @@
                 <habilidad>Fuego rápido</habilidad>
                 <referencia>https://bulbapedia.bulbagarden.net/wiki/Vulpix_(Pok%C3%A9mon)</referencia>
             </pokemon>
-        </ciudad-azulona>
-        <ciudad-plateada>
-        </ciudad-plateada>
-        <monte-moon>
-        </monte-moon>
-        <ciudad-celeste>
+        </zona>
+        <zona nombre = "Ciudad celeste">
             <pokemon>
                 <nombre>Charmander</nombre>
                 <dificultad>fácil</dificultad>
@@ -349,18 +253,8 @@
                 <habilidad>Llamarada</habilidad>
                 <referencia>https://bulbapedia.bulbagarden.net/wiki/Charmander_(Pok%C3%A9mon)</referencia>
             </pokemon>
-        </ciudad-celeste>
-        <ciudad-azafran>
-        </ciudad-azafran>
-        <ciudad-carmin>
-        </ciudad-carmin>
-        <puerto-carmin>
-        </puerto-carmin>
-        <zona-safari>
-        </zona-safari>
-        <cueva-diglett>
-        </cueva-diglett>
-        <pueblo-lavanda>
+        </zona>
+        <zona nombre = "Pueblo lavanda">
              <pokemon>
                 <nombre>Growlithe</nombre>
                 <dificultad>fácil</dificultad>
@@ -377,16 +271,8 @@
                 <habilidad>Llamarada</habilidad>
                 <referencia>https://bulbapedia.bulbagarden.net/wiki/Arcanine_(Pok%C3%A9mon)</referencia>
             </pokemon>
-        </pueblo-lavanda>
-        <cueva-celeste>
-        </cueva-celeste>
-        <tunel-roca>
-        </tunel-roca>
-        <cental-energetica>
-        </central-energetica>
-        <torre-pokemon>
-        </torre-pokemon>
-        <desconocido>
+        </zona>
+        <zona nombre = "Desconocido">
             <pokemon>
                 <nombre>Charmeleon</nombre>
                 <dificultad>medio</dificultad>
@@ -419,22 +305,10 @@
                 <habilidad>Presión</habilidad>
                 <referencia>https://bulbapedia.bulbagarden.net/wiki/Moltres_(Pok%C3%A9mon)</referencia>
             </pokemon>
-        </desconocido>
-    </fuego>
-    <volador>
-        <meseta-añil>
-        </meseta-añil>
-        <calle-victoria>
-        </calle-vistoria>
-        <bosque-verde>
-        </bosque-verde>
-        <pueblo-paleta>
-        </pueblo-paleta>
-        <mansion-pokemon>
-        </mansion-pokemon>
-        <isla-canela>
-        </isla-canela>
-        <islas-espuma>
+        </zona>
+    </tipo>
+    <tipo titulo = "volador">
+        <zona nombre = "Islas espuma">
             <pokemon>
                 <nombre>Zubat</nombre>
                 <dificultad>fácil</dificultad>
@@ -451,10 +325,8 @@
                 <habilidad>Centrado interno</habilidad>
                 <referencia>https://bulbapedia.bulbagarden.net/wiki/Golbat_(Pok%C3%A9mon)</referencia>
             </pokemon>
-        </islas-espuma>
-        <ciudad-fucsia>
-        </ciudad-fucsia>
-        <camino-de-bicis>
+       </zona>
+        <zona nombre = "Camino de bicis">
             <pokemon>
                 <nombre>Spearow</nombre>
                 <dificultad>fácil</dificultad>
@@ -471,36 +343,8 @@
                 <habilidad>Buen ojo</habilidad>
                 <referencia>https://bulbapedia.bulbagarden.net/wiki/Fearow_(Pok%C3%A9mon)</referencia>
             </pokemon>
-        </camino-de-bicis>
-        <ciudad-azulona>
-        </ciudad-azulona>
-        <ciudad-plateada>
-        </ciudad-plateada>
-        <monte-moon>
-        </monte-moon>
-        <ciudad-celeste>
-        </ciudad-celeste>
-        <ciudad-azafran>
-        </ciudad-azafran>
-        <ciudad-carmin>
-        </ciudad-carmin>
-        <puerto-carmin>
-        </puerto-carmin>
-        <zona-safari>
-        </zona-safari>
-        <cueva-diglett>
-        </cueva-diglett>
-        <pueblo-lavanda>
-        </pueblo-lavanda>
-        <cueva-celeste>
-        </cueva-celeste>
-        <tunel-roca>
-        </tunel-roca>
-        <cental-energetica>
-        </central-energetica>
-        <torre-pokemon>
-        </torre-pokemon>
-        <desconocido>
+        </zona>
+        <zona nombre = "Desconocido">
             <pokemon>
                 <nombre>Butterfree</nombre>
                 <dificultad>medio</dificultad>
@@ -589,24 +433,10 @@
                 <habilidad>Centrado interior</habilidad>
                 <referencia>https://bulbapedia.bulbagarden.net/wiki/Dragonite_(Pok%C3%A9mon)</referencia>
             </pokemon>
-        </desconocido>
-    </volador>
-    <agua>
-        <meseta-añil>
-        </meseta-añil>
-        <calle-victoria>
-        </calle-vistoria>
-        <bosque-verde>
-        </bosque-verde>
-        <pueblo-paleta>
-        </pueblo-paleta>
-        <mansion-pokemon>
-        </mansion-pokemon>
-        <isla-canela>
-        </isla-canela>
-        <islas-espuma>
-        </islas-espuma>
-        <ciudad-fucsia>
+        </zona>
+    </tipo>
+    <tipo titulo = "agua">
+        <zona nombre = "Ciudad fucsia">
             <pokemon>
                 <nombre>Slowpoke</nombre>
                 <dificultad>fácil</dificultad>
@@ -623,16 +453,8 @@
                 <habilidad>Absorber agua</habilidad>
                 <referencia>https://bulbapedia.bulbagarden.net/wiki/Lapras_(Pok%C3%A9mon)</referencia>
             </pokemon>
-        </ciudad-fucsia>
-        <camino-de-bicis>
-        </camino-de-bicis>
-        <ciudad-azulona>
-        </ciudad-azulona>
-        <ciudad-plateada>
-        </ciudad-plateada>
-        <monte-moon>
-        </monte-moon>
-        <ciudad-celeste>
+        </zona>
+        <zona nombre = "Ciudad celeste">
             <pokemon>
                 <nombre>Squirtle</nombre>
                 <dificultad>fácil</dificultad>
@@ -641,8 +463,8 @@
                 <habilidad>Torrente</habilidad>
                 <referencia>https://bulbapedia.bulbagarden.net/wiki/Squirtle_(Pok%C3%A9mon)</referencia>
             </pokemon>
-        </ciudad-celeste>
-        <ciudad-azafran>
+        </zona>
+        <zona nombre = "Ciudad azafrán">
             <pokemon>
                 <nombre>Blastoise</nombre>
                 <dificultad>difícil</dificultad>
@@ -651,24 +473,8 @@
                 <habilidad>Torrente</habilidad>
                 <referencia>https://bulbapedia.bulbagarden.net/wiki/Blastoise_(Pok%C3%A9mon)</referencia>
             </pokemon>
-        </ciudad-azafran>
-        <ciudad-carmin>
-        </ciudad-carmin>
-        <puerto-carmin>
-        </puerto-carmin>
-        <zona-safari>
-        </zona-safari>
-        <cueva-diglett>
-        </cueva-diglett>
-        <pueblo-lavanda>
-        </pueblo-lavanda>
-        <cueva-celeste>
-        </cueva-celeste>
-        <tunel-roca>
-        </tunel-roca>
-        <cental-energetica>
-        </central-energetica>
-        <torre-pokemon>
+        </zona>
+        <zona nombre = "Torre Pokemon">
             <pokemon>
                 <nombre>Slowbro</nombre>
                 <dificultad>difícil</dificultad>
@@ -677,8 +483,8 @@
                 <habilidad>Al propio tiempo</habilidad>
                 <referencia>https://bulbapedia.bulbagarden.net/wiki/Slowbro_(Pok%C3%A9mon)</referencia>
             </pokemon>
-        </torre-pokemon>
-        <desconocido>
+        </zona>
+        <zona nombre = "Desconocido">
             <pokemon>
                 <nombre>Wartortle</nombre>
                 <dificultad>medio</dificultad>
@@ -687,32 +493,10 @@
                 <habilidad>Torrente</habilidad>
                 <referencia>https://bulbapedia.bulbagarden.net/wiki/Wartortle_(Pok%C3%A9mon)</referencia>
             </pokemon>
-        </desconocido>
-    </agua>
-    <bicho>
-        <meseta-añil>
-        </meseta-añil>
-        <calle-victoria>
-        </calle-vistoria>
-        <bosque-verde>
-        </bosque-verde>
-        <pueblo-paleta>
-        </pueblo-paleta>
-        <mansion-pokemon>
-        </mansion-pokemon>
-        <isla-canela>
-        </isla-canela>
-        <islas-espuma>
-        </islas-espuma>
-        <ciudad-fucsia>
-        </ciudad-fucsia>
-        <camino-de-bicis>
-        </camino-de-bicis>
-        <ciudad-azulona>
-        </ciudad-azulona>
-        <ciudad-plateada>
-        </ciudad-plateada>
-        <monte-moon>
+        </zona>
+    </tipo>
+    <tipo titulo = "bicho">
+       <zona nombre = "Monte moon">
             <pokemon>
                 <nombre>Paras</nombre>
                 <dificultad>fácil</dificultad>
@@ -729,30 +513,8 @@
                 <habilidad>Piel seca</habilidad>
                 <referencia>https://bulbapedia.bulbagarden.net/wiki/Parasect_(Pok%C3%A9mon)</referencia>
             </pokemon>
-        </monte-moon>
-        <ciudad-celeste>
-        </ciudad-celeste>
-        <ciudad-azafran>
-        </ciudad-azafran>
-        <ciudad-carmin>
-        </ciudad-carmin>
-        <puerto-carmin>
-        </puerto-carmin>
-        <zona-safari>
-        </zona-safari>
-        <cueva-diglett>
-        </cueva-diglett>
-        <pueblo-lavanda>
-        </pueblo-lavanda>
-        <cueva-celeste>
-        </cueva-celeste>
-        <tunel-roca>
-        </tunel-roca>
-        <cental-energetica>
-        </central-energetica>
-        <torre-pokemon>
-        </torre-pokemon>
-        <desconocido>
+        </zona>
+        <zona nombre = "Desconocido">
             <pokemon>
                 <nombre>Caterpie</nombre>
                 <dificultad>fácil</dificultad>
@@ -801,26 +563,10 @@
                 <habilidad>Enjambre</habilidad>
                 <referencia>https://bulbapedia.bulbagarden.net/wiki/Beedrill_(Pok%C3%A9mon)</referencia>
             </pokemon>
-        </desconocido>
-    </bicho>
-    <normal>
-        <meseta-añil>
-        </meseta-añil>
-        <calle-victoria>
-        </calle-vistoria>
-        <bosque-verde>
-        </bosque-verde>
-        <pueblo-paleta>
-        </pueblo-paleta>
-        <mansion-pokemon>
-        </mansion-pokemon>
-        <isla-canela>
-        </isla-canela>
-        <islas-espuma>
-        </islas-espuma>
-        <ciudad-fucsia>
-        </ciudad-fucsia>
-        <camino-de-bicis>
+        </zona>
+    </tipo>
+    <tipo titulo = "normal">
+        <zona nombre = "Camino de bicis">
             <pokemon>
                 <nombre>Spearow</nombre>
                 <dificultad>fácil</dificultad>
@@ -837,10 +583,8 @@
                 <habilidad>Buen ojo</habilidad>
                 <referencia>https://bulbapedia.bulbagarden.net/wiki/Fearow_(Pok%C3%A9mon)</referencia>
             </pokemon>
-        </camino-de-bicis>
-        <ciudad-azulona>
-        </ciudad-azulona>
-        <ciudad-plateada>
+        </zona>
+        <zona nombre = "Ciudad plateada">
             <pokemon>
                 <nombre>Jigglypuff</nombre>
                 <dificultad>fácil</dificultad>
@@ -849,12 +593,8 @@
                 <habilidad>Competitividad</habilidad>
                 <referencia>https://bulbapedia.bulbagarden.net/wiki/Jigglypuff_(Pok%C3%A9mon)</referencia>
             </pokemon>
-        </ciudad-plateada>
-        <monte-moon>
-        </monte-moon>
-        <ciudad-celeste>
-        </ciudad-celeste>
-        <ciudad-azafran>
+        </zona>
+        <zona nombre = "Ciudad azafrán">
             <pokemon>
                 <nombre>Meowth</nombre>
                 <dificultad>fácil</dificultad>
@@ -871,26 +611,8 @@
                 <habilidad>Técnico</habilidad>
                 <referencia>https://bulbapedia.bulbagarden.net/wiki/Persian_(Pok%C3%A9mon)</referencia>
             </pokemon>
-        </ciudad-azafran>
-        <ciudad-carmin>
-        </ciudad-carmin>
-        <puerto-carmin>
-        </puerto-carmin>
-        <zona-safari>
-        </zona-safari>
-        <cueva-diglett>
-        </cueva-diglett>
-        <pueblo-lavanda>
-        </pueblo-lavanda>
-        <cueva-celeste>
-        </cueva-celeste>
-        <tunel-roca>
-        </tunel-roca>
-        <cental-energetica>
-        </central-energetica>
-        <torre-pokemon>
-        </torre-pokemon>
-        <desconocido>
+        </zona>
+        <zona nombre = "Desconocido">
             <pokemon>
                 <nombre>Pidgey</nombre>
                 <dificultad>fácil</dificultad>
@@ -939,16 +661,10 @@
                 <habilidad>Inmunidad</habilidad>
                 <referencia>https://bulbapedia.bulbagarden.net/wiki/Snorlax_(Pok%C3%A9mon)</referencia>
             </pokemon>
-        </desconocido>
-    </normal>
-    <electrico>
-        <meseta-añil>
-        </meseta-añil>
-        <calle-victoria>
-        </calle-vistoria>
-        <bosque-verde>
-        </bosque-verde>
-        <pueblo-paleta>
+        </zona>
+    </tipo>
+    <tipo titulo = "electrico">
+        <zona nombre = "Pueblo palera">
             <pokemon>
                 <nombre>Pikachu</nombre>
                 <dificultad>medio</dificultad>
@@ -957,42 +673,8 @@
                 <habilidad>Estática</habilidad>
                 <referencia>https://bulbapedia.bulbagarden.net/wiki/Pikachu_(Pok%C3%A9mon)</referencia>
             </pokemon>
-        </pueblo-paleta>
-        <mansion-pokemon>
-        </mansion-pokemon>
-        <isla-canela>
-        </isla-canela>
-        <islas-espuma>
-        </islas-espuma>
-        <ciudad-fucsia>
-        </ciudad-fucsia>
-        <camino-de-bicis>
-        </camino-de-bicis>
-        <ciudad-azulona>
-        </ciudad-azulona>
-        <ciudad-plateada>
-        </ciudad-plateada>
-        <monte-moon>
-        </monte-moon>
-        <ciudad-celeste>
-        </ciudad-celeste>
-        <ciudad-azafran>
-        </ciudad-azafran>
-        <ciudad-carmin>
-        </ciudad-carmin>
-        <puerto-carmin>
-        </puerto-carmin>
-        <zona-safari>
-        </zona-safari>
-        <cueva-diglett>
-        </cueva-diglett>
-        <pueblo-lavanda>
-        </pueblo-lavanda>
-        <cueva-celeste>
-        </cueva-celeste>
-        <tunel-roca>
-        </tunel-roca>
-        <cental-energetica>
+        </zona>
+        <zona nombre = "Central energética">
             <pokemon>
                 <nombre>Magnemite</nombre>
                 <dificultad>fácil</dificultad>
@@ -1000,7 +682,7 @@
                 <peso>6</peso>
                 <habilidad>Atracción magnética</habilidad>
                 <referencia>https://bulbapedia.bulbagarden.net/wiki/Magnemite_(Pok%C3%A9mon)</referencia>
-            <pokemon>
+            </pokemon>
             <pokemon>
                 <nombre>Magneton</nombre>
                 <dificultad>medio</dificultad>
@@ -1008,11 +690,9 @@
                 <peso>60</peso>
                 <habilidad>Atracción magnética</habilidad>
                 <referencia>https://bulbapedia.bulbagarden.net/wiki/Magneton_(Pok%C3%A9mon)</referencia>
-            <pokemon>
-        </central-energetica>
-        <torre-pokemon>
-        </torre-pokemon>
-        <desconocido>
+            </pokemon>
+        </zona>
+        <zona nombre = "Desconocido">
             <pokemon>
                 <nombre>Raichu</nombre>
                 <dificultad>difícil</dificultad>
@@ -1020,7 +700,7 @@
                 <peso>30</peso>
                 <habilidad>Estática</habilidad>
                 <referencia>https://bulbapedia.bulbagarden.net/wiki/Raichu_(Pok%C3%A9mon)</referencia>
-            <pokemon>
+            </pokemon>
             <pokemon>
                 <nombre>Zapdos</nombre>
                 <dificultad>difícil</dificultad>
@@ -1029,12 +709,10 @@
                 <habilidad>Presión</habilidad>
                 <referencia>https://bulbapedia.bulbagarden.net/wiki/Zapdos_(Pok%C3%A9mon)</referencia>
             </pokemon>
-        </desconocido>
-    </electrico>
-    <tierra>
-        <meseta-añil>
-        </meseta-añil>
-        <calle-victoria>
+        </zona>
+    </tipo>
+    <tipo titulo = "tierra">
+        <zona nombre = "Calle victoria">
             <pokemon>
                 <nombre>Nidoqueen</nombre>
                 <dificultad>difícil</dificultad>
@@ -1051,26 +729,8 @@
                 <habilidad>Rivalidad</habilidad>
                 <referencia>https://bulbapedia.bulbagarden.net/wiki/Nidoking_(Pok%C3%A9mon)</referencia>
             </pokemon>
-        </calle-vistoria>
-        <bosque-verde>
-        </bosque-verde>
-        <pueblo-paleta>
-        </pueblo-paleta>
-        <mansion-pokemon>
-        </mansion-pokemon>
-        <isla-canela>
-        </isla-canela>
-        <islas-espuma>
-        </islas-espuma>
-        <ciudad-fucsia>
-        </ciudad-fucsia>
-        <camino-de-bicis>
-        </camino-de-bicis>
-        <ciudad-azulona>
-        </ciudad-azulona>
-        <ciudad-plateada>
-        </ciudad-plateada>
-        <monte-moon>
+        </zona>
+        <zona nombre = "Monte moon">
             <pokemon>
                 <nombre>Sandshrew</nombre>
                 <dificultad>fácil</dificultad>
@@ -1087,18 +747,8 @@
                 <habilidad>Capa de arena</habilidad>
                 <referencia>https://bulbapedia.bulbagarden.net/wiki/Sandslash_(Pok%C3%A9mon)</referencia>
             </pokemon>
-        </monte-moon>
-        <ciudad-celeste>
-        </ciudad-celeste>
-        <ciudad-azafran>
-        </ciudad-azafran>
-        <ciudad-carmin>
-        </ciudad-carmin>
-        <puerto-carmin>
-        </puerto-carmin>
-        <zona-safari>
-        </zona-safari>
-        <cueva-diglett>
+        </zona>
+        <zona nombre = "Cueva Diglett">
             <pokemon>
                 <nombre>Diglett</nombre>
                 <dificultad>fácil</dificultad>
@@ -1115,42 +765,10 @@
                 <habilidad>Trampa de arena</habilidad>
                 <referencia>https://bulbapedia.bulbagarden.net/wiki/Dugtrio_(Pok%C3%A9mon)</referencia>
             </pokemon>
-        </cueva-diglett>
-        <pueblo-lavanda>
-        </pueblo-lavanda>
-        <cueva-celeste>
-        </cueva-celeste>
-        <tunel-roca>
-        </tunel-roca>
-        <cental-energetica>
-        </central-energetica>
-        <torre-pokemon>
-        </torre-pokemon>
-        <desconocido>
-        </desconocido>
-    </tierra>
-    <hada>
-        <meseta-añil>
-        </meseta-añil>
-        <calle-victoria>
-        </calle-vistoria>
-        <bosque-verde>
-        </bosque-verde>
-        <pueblo-paleta>
-        </pueblo-paleta>
-        <mansion-pokemon>
-        </mansion-pokemon>
-        <isla-canela>
-        </isla-canela>
-        <islas-espuma>
-        </islas-espuma>
-        <ciudad-fucsia>
-        </ciudad-fucsia>
-        <camino-de-bicis>
-        </camino-de-bicis>
-        <ciudad-azulona>
-        </ciudad-azulona>
-        <ciudad-plateada>
+        </zona>
+    </tipo>
+    <tipo titulo = "hada">
+        <zona nombre = "Ciudad plateada">
             <pokemon>
                 <nombre>Clefairy</nombre>
                 <dificultad>fácil</dificultad>
@@ -1175,32 +793,8 @@
                 <habilidad>Competitividad</habilidad>
                 <referencia>https://bulbapedia.bulbagarden.net/wiki/Jigglypuff_(Pok%C3%A9mon)</referencia>
             </pokemon>
-        </ciudad-plateada>
-        <monte-moon>
-        </monte-moon>
-        <ciudad-celeste>
-        </ciudad-celeste>
-        <ciudad-azafran>
-        </ciudad-azafran>
-        <ciudad-carmin>
-        </ciudad-carmin>
-        <puerto-carmin>
-        </puerto-carmin>
-        <zona-safari>
-        </zona-safari>
-        <cueva-diglett>
-        </cueva-diglett>
-        <pueblo-lavanda>
-        </pueblo-lavanda>
-        <cueva-celeste>
-        </cueva-celeste>
-        <tunel-roca>
-        </tunel-roca>
-        <cental-energetica>
-        </central-energetica>
-        <torre-pokemon>
-        </torre-pokemon>
-        <desconocido>
+        </zona>
+        <zona nombre = "Desconocido">
             <pokemon>
                 <nombre>Wigglytuff</nombre>
                 <dificultad>difícil</dificultad>
@@ -1209,12 +803,10 @@
                 <habilidad>Competitividad</habilidad>
                 <referencia>https://bulbapedia.bulbagarden.net/wiki/Wigglytuff_(Pok%C3%A9mon)</referencia>
             </pokemon>
-        </desconocido>
-    </hada>
-    <luchador>
-        <meseta-añil>
-        </meseta-añil>
-        <calle-victoria>
+        </zona>
+    </tipo>
+    <tipo titulo = "luchador">
+        <zona nombre = "Calle victoria">
             <pokemon>
                 <nombre>Machoke</nombre>
                 <dificultad>medio</dificultad>
@@ -1231,50 +823,8 @@
                 <habilidad>Agallas o sin guardia</habilidad>
                 <referencia>https://bulbapedia.bulbagarden.net/wiki/Machamp_(Pok%C3%A9mon)</referencia>
             </pokemon>
-        </calle-vistoria>
-        <bosque-verde>
-        </bosque-verde>
-        <pueblo-paleta>
-        </pueblo-paleta>
-        <mansion-pokemon>
-        </mansion-pokemon>
-        <isla-canela>
-        </isla-canela>
-        <islas-espuma>
-        </islas-espuma>
-        <ciudad-fucsia>
-        </ciudad-fucsia>
-        <camino-de-bicis>
-        </camino-de-bicis>
-        <ciudad-azulona>
-        </ciudad-azulona>
-        <ciudad-plateada>
-        </ciudad-plateada>
-        <monte-moon>
-        </monte-moon>
-        <ciudad-celeste>
-        </ciudad-celeste>
-        <ciudad-azafran>
-        </ciudad-azafran>
-        <ciudad-carmin>
-        </ciudad-carmin>
-        <puerto-carmin>
-        </puerto-carmin>
-        <zona-safari>
-        </zona-safari>
-        <cueva-diglett>
-        </cueva-diglett>
-        <pueblo-lavanda>
-        </pueblo-lavanda>
-        <cueva-celeste>
-        </cueva-celeste>
-        <tunel-roca>
-        </tunel-roca>
-        <cental-energetica>
-        </central-energetica>
-        <torre-pokemon>
-        </torre-pokemon>
-        <desconocido>
+        </zona>
+        <zona nombre = "Desconocido">
             <pokemon>
                 <nombre>Mankey</nombre>
                 <dificultad>fácil</dificultad>
@@ -1299,24 +849,10 @@
                 <habilidad>Agallas o sin guardia</habilidad>
                 <referencia>https://bulbapedia.bulbagarden.net/wiki/Machop_(Pok%C3%A9mon)</referencia>
             </pokemon>
-        </desconocido>
-    </luchador>
-    <psiquico>
-        <meseta-añil>
-        </meseta-añil>
-        <calle-victoria>
-        </calle-vistoria>
-        <bosque-verde>
-        </bosque-verde>
-        <pueblo-paleta>
-        </pueblo-paleta>
-        <mansion-pokemon>
-        </mansion-pokemon>
-        <isla-canela>
-        </isla-canela>
-        <islas-espuma>
-        </islas-espuma>
-        <ciudad-fucsia>
+        </zona>
+    </tipo>
+    <tipo titulo = "psiquico">
+        <zona nombre = "Ciudad fucsia">
             <pokemon>
                 <nombre>Slowpoke</nombre>
                 <dificultad>fácil</dificultad>
@@ -1325,32 +861,8 @@
                 <habilidad>Al propio tiempo</habilidad>
                 <referencia>https://bulbapedia.bulbagarden.net/wiki/Slowpoke_(Pok%C3%A9mon)</referencia>
             </pokemon>
-        </ciudad-fucsia>
-        <camino-de-bicis>
-        </camino-de-bicis>
-        <ciudad-azulona>
-        </ciudad-azulona>
-        <ciudad-plateada>
-        </ciudad-plateada>
-        <monte-moon>
-        </monte-moon>
-        <ciudad-celeste>
-        </ciudad-celeste>
-        <ciudad-azafran>
-        </ciudad-azafran>
-        <ciudad-carmin>
-        </ciudad-carmin>
-        <puerto-carmin>
-        </puerto-carmin>
-        <zona-safari>
-        </zona-safari>
-        <cueva-diglett>
-        </cueva-diglett>
-        <pueblo-lavanda>
-        </pueblo-lavanda>
-        <cueva-celeste>
-        </cueva-celeste>
-        <tunel-roca>
+        </zona>
+        <zona nombre = "Tunel roca">
             <pokemon>
                 <nombre>Abra</nombre>
                 <dificultad>fácil</dificultad>
@@ -1359,10 +871,8 @@
                 <habilidad>Sincronizar</habilidad>
                 <referencia>https://bulbapedia.bulbagarden.net/wiki/Abra_(Pok%C3%A9mon)</referencia>
             </pokemon>
-        </tunel-roca>
-        <cental-energetica>
-        </central-energetica>
-        <torre-pokemon>
+        </zona>
+        <zona nombre = "Torre Pokemon">
             <pokemon>
                 <nombre>Slowbro</nombre>
                 <dificultad>difícil</dificultad>
@@ -1371,8 +881,8 @@
                 <habilidad>Al propio tiempo</habilidad>
                 <referencia>https://bulbapedia.bulbagarden.net/wiki/Slowbro_(Pok%C3%A9mon)</referencia>
             </pokemon>
-        </torre-pokemon>
-        <desconocido>
+        </zona>
+        <zona nombre = "Desconocido">
             <pokemon>
                 <nombre>Kadabra</nombre>
                 <dificultad>medio</dificultad>
@@ -1405,94 +915,10 @@
                 <habilidad>Presión</habilidad>
                 <referencia>https://bulbapedia.bulbagarden.net/wiki/Mew_(Pok%C3%A9mon)</referencia>
             </pokemon>
-        </desconocido>
-    </psiquico>
-    <piedra>
-     <meseta-añil>
-        </meseta-añil>
-        <calle-victoria>
-        </calle-vistoria>
-        <bosque-verde>
-        </bosque-verde>
-        <pueblo-paleta>
-        </pueblo-paleta>
-        <mansion-pokemon>
-        </mansion-pokemon>
-        <isla-canela>
-        </isla-canela>
-        <islas-espuma>
-        </islas-espuma>
-        <ciudad-fucsia>
-        </ciudad-fucsia>
-        <camino-de-bicis>
-        </camino-de-bicis>
-        <ciudad-azulona>
-        </ciudad-azulona>
-        <ciudad-plateada>
-        </ciudad-plateada>
-        <monte-moon>
-        </monte-moon>
-        <ciudad-celeste>
-        </ciudad-celeste>
-        <ciudad-azafran>
-        </ciudad-azafran>
-        <ciudad-carmin>
-        </ciudad-carmin>
-        <puerto-carmin>
-        </puerto-carmin>
-        <zona-safari>
-        </zona-safari>
-        <cueva-diglett>
-        </cueva-diglett>
-        <pueblo-lavanda>
-        </pueblo-lavanda>
-        <cueva-celeste>
-        </cueva-celeste>
-        <tunel-roca>
-        </tunel-roca>
-        <cental-energetica>
-        </central-energetica>
-        <torre-pokemon>
-        </torre-pokemon>
-        <desconocido>
-        </desconocido>
-    </piedra>
-    <metal>
-        <meseta-añil>
-        </meseta-añil>
-        <calle-victoria>
-        </calle-vistoria>
-        <bosque-verde>
-        </bosque-verde>
-        <pueblo-paleta>
-        </pueblo-paleta>
-        <mansion-pokemon>
-        </mansion-pokemon>
-        <isla-canela>
-        </isla-canela>
-        <islas-espuma>
-        </islas-espuma>
-        <ciudad-fucsia>
-        </ciudad-fucsia>
-        <camino-de-bicis>
-        </camino-de-bicis>
-        <ciudad-azulona>
-        </ciudad-azulona>
-        <ciudad-plateada>
-        </ciudad-plateada>
-        <monte-moon>
-        </monte-moon>
-        <ciudad-celeste>
-        </ciudad-celeste>
-        <ciudad-azafran>
-        </ciudad-azafran>
-        <ciudad-carmin>
-        </ciudad-carmin>
-        <puerto-carmin>
-        </puerto-carmin>
-        <zona-safari>
-        </zona-safari>
-        <cueva-diglett>
+        </zona>
+    </tipo>
+    <tipo titulo = "metal">
+        <zona nombre = "Cueva Diglett">
             <pokemon>
                 <nombre>Diglett</nombre>
                 <dificultad>fácil</dificultad>
@@ -1509,14 +935,8 @@
                 <habilidad>Trampa de arena</habilidad>
                 <referencia>https://bulbapedia.bulbagarden.net/wiki/Dugtrio_(Pok%C3%A9mon)</referencia>
             </pokemon>
-        </cueva-diglett>
-        <pueblo-lavanda>
-        </pueblo-lavanda>
-        <cueva-celeste>
-        </cueva-celeste>
-        <tunel-roca>
-        </tunel-roca>
-        <cental-energetica>
+        </zona>
+        <zona nombre = "Central energética">
             <pokemon>
                 <nombre>Magnemite</nombre>
                 <dificultad>fácil</dificultad>
@@ -1533,28 +953,10 @@
                 <habilidad>Atracción magnética</habilidad>
                 <referencia>https://bulbapedia.bulbagarden.net/wiki/Magneton_(Pok%C3%A9mon)</referencia>
             </pokemon>
-        </central-energetica>
-        <torre-pokemon>
-        </torre-pokemon>
-        <desconocido>
-        </desconocido>
-    </metal>
-    <hielo>
-        <meseta-añil>
-        </meseta-añil>
-        <calle-victoria>
-        </calle-vistoria>
-        <bosque-verde>
-        </bosque-verde>
-        <pueblo-paleta>
-        </pueblo-paleta>
-        <mansion-pokemon>
-        </mansion-pokemon>
-        <isla-canela>
-        </isla-canela>
-        <islas-espuma>
-        </islas-espuma>
-        <ciudad-fucsia>
+        </zona>
+    </tipo>
+    <tipo titulo = "hielo">
+        <zona nombre = "Ciudad fucsia">
             <pokemon>
                 <nombre>Lapras</nombre>
                 <dificultad>difícil</dificultad>
@@ -1563,38 +965,8 @@
                 <habilidad>Absorber agua</habilidad>
                 <referencia>https://bulbapedia.bulbagarden.net/wiki/Lapras_(Pok%C3%A9mon)</referencia>
             </pokemon>
-        </ciudad-fucsia>
-        <camino-de-bicis>
-        </camino-de-bicis>
-        <ciudad-azulona>
-        </ciudad-azulona>
-        <ciudad-plateada>
-        </ciudad-plateada>
-        <monte-moon>
-        </monte-moon>
-        <ciudad-celeste>
-        </ciudad-celeste>
-        <ciudad-azafran>
-        </ciudad-azafran>
-        <ciudad-carmin>
-        </ciudad-carmin>
-        <puerto-carmin>
-        </puerto-carmin>
-        <zona-safari>
-        </zona-safari>
-        <cueva-diglett>
-        </cueva-diglett>
-        <pueblo-lavanda>
-        </pueblo-lavanda>
-        <cueva-celeste>
-        </cueva-celeste>
-        <tunel-roca>
-        </tunel-roca>
-        <cental-energetica>
-        </central-energetica>
-        <torre-pokemon>
-        </torre-pokemon>
-        <desconocido>
+        </zona>
+        <zona nombre = "Desconocido">
             <pokemon>
                 <nombre>Articuno</nombre>
                 <dificultad>difícil</dificultad>
@@ -1603,54 +975,10 @@
                 <habilidad>Presión</habilidad>
                 <referencia>https://bulbapedia.bulbagarden.net/wiki/Articuno_(Pok%C3%A9mon)</referencia>
             </pokemon>
-        </desconocido>
-    </hielo>
-    <fantasma>
-        <meseta-añil>
-        </meseta-añil>
-        <calle-victoria>
-        </calle-vistoria>
-        <bosque-verde>
-        </bosque-verde>
-        <pueblo-paleta>
-        </pueblo-paleta>
-        <mansion-pokemon>
-        </mansion-pokemon>
-        <isla-canela>
-        </isla-canela>
-        <islas-espuma>
-        </islas-espuma>
-        <ciudad-fucsia>
-        </ciudad-fucsia>
-        <camino-de-bicis>
-        </camino-de-bicis>
-        <ciudad-azulona>
-        </ciudad-azulona>
-        <ciudad-plateada>
-        </ciudad-plateada>
-        <monte-moon>
-        </monte-moon>
-        <ciudad-celeste>
-        </ciudad-celeste>
-        <ciudad-azafran>
-        </ciudad-azafran>
-        <ciudad-carmin>
-        </ciudad-carmin>
-        <puerto-carmin>
-        </puerto-carmin>
-        <zona-safari>
-        </zona-safari>
-        <cueva-diglett>
-        </cueva-diglett>
-        <pueblo-lavanda>
-        </pueblo-lavanda>
-        <cueva-celeste>
-        </cueva-celeste>
-        <tunel-roca>
-        </tunel-roca>
-        <cental-energetica>
-        </central-energetica>
-        <torre-pokemon>
+        </zona>
+    </tipo>
+    <tipo titulo = "fantasma">
+        <zona nombre = "Torre Pokemon">
             <pokemon>
                 <nombre>Gastly</nombre>
                 <dificultad>fácil</dificultad>
@@ -1667,44 +995,10 @@
                 <habilidad>Atracción magnética</habilidad>
                 <referencia>https://bulbapedia.bulbagarden.net/wiki/Haunter_(Pok%C3%A9mon)</referencia>
             </pokemon>
-        </torre-pokemon>
-        <desconocido>
-        </desconocido>
-    </fantasma>
-    <dragon>
-        <meseta-añil>
-        </meseta-añil>
-        <calle-victoria>
-        </calle-vistoria>
-        <bosque-verde>
-        </bosque-verde>
-        <pueblo-paleta>
-        </pueblo-paleta>
-        <mansion-pokemon>
-        </mansion-pokemon>
-        <isla-canela>
-        </isla-canela>
-        <islas-espuma>
-        </islas-espuma>
-        <ciudad-fucsia>
-        </ciudad-fucsia>
-        <camino-de-bicis>
-        </camino-de-bicis>
-        <ciudad-azulona>
-        </ciudad-azulona>
-        <ciudad-plateada>
-        </ciudad-plateada>
-        <monte-moon>
-        </monte-moon>
-        <ciudad-celeste>
-        </ciudad-celeste>
-        <ciudad-azafran>
-        </ciudad-azafran>
-        <ciudad-carmin>
-        </ciudad-carmin>
-        <puerto-carmin>
-        </puerto-carmin>
-        <zona-safari>
+        </zona>
+    </tipo>
+    <tipo titulo = "dragon">
+        <zona nombre = "Zona safari">
             <pokemon>
                 <nombre>Dratini</nombre>
                 <dificultad>medio</dificultad>
@@ -1713,20 +1007,8 @@
                 <habilidad>Mudar piel</habilidad>
                 <referencia>https://bulbapedia.bulbagarden.net/wiki/Dratini_(Pok%C3%A9mon)</referencia>
             </pokemon>
-        </zona-safari>
-        <cueva-diglett>
-        </cueva-diglett>
-        <pueblo-lavanda>
-        </pueblo-lavanda>
-        <cueva-celeste>
-        </cueva-celeste>
-        <tunel-roca>
-        </tunel-roca>
-        <cental-energetica>
-        </central-energetica>
-        <torre-pokemon>
-        </torre-pokemon>
-        <desconocido>
+        </zona>
+        <zona nombre = "Desconocido">
             <pokemon>
                 <nombre>Dragonair</nombre>
                 <dificultad>difícil</dificultad>
@@ -1743,6 +1025,6 @@
                 <habilidad>Centrado interior</habilidad>
                 <referencia>https://bulbapedia.bulbagarden.net/wiki/Dragonite_(Pok%C3%A9mon)</referencia>
             </pokemon>
-        </desconocido>
-    </dragon>
+        </zona>
+    </tipo>
 </pokemons>

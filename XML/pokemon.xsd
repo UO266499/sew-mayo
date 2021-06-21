@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="pokemons">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="1" maxOccurs="unbounded" ref="tipo" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="tipo">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="1" maxOccurs="unbounded" ref="zona" />
+			</xs:sequence>
+			<xs:attribute name="titulo" type="xs:string" use="required" />
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="zona">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="1" maxOccurs="unbounded" ref="pokemon" />
+			</xs:sequence>
+			<xs:attribute name="nombre" type="xs:string" use="required" />
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="pokemon">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="nombre" />
+				<xs:element ref="dificultad" />
+				<xs:element ref="altura" />
+				<xs:element ref="peso" />
+				<xs:element ref="habilidad" />
+				<xs:element ref="referencia" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="nombre" type="xs:string" />
+	<xs:element name="dificultad" type="xs:string" />
+	<xs:element name="altura" type="xs:decimal" />
+	<xs:element name="peso" type="xs:decimal" />
+	<xs:element name="habilidad" type="xs:string" />
+	<xs:element name="referencia" type="xs:string" />
+</xs:schema>
